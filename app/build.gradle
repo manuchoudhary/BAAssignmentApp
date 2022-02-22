@@ -27,7 +27,7 @@ android {
 
     buildTypes {
         buildTypes.each {
-            it.buildConfigField("String", "BASE_URL", '"https://newsapi.org/v2/"')
+            it.buildConfigField("String", "BASE_URL", '"https://newsapi.org/"')
         }
         release {
             minifyEnabled false

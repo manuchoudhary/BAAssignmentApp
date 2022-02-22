@@ -12,11 +12,11 @@ object ArticleMapper {
                 articleList.add(
                     Article(
                         item.author?: "Anonymous",
-                        item.title,
-                        item.description,
-                        item.url,
-                        item.urlToImage,
-                        item.publishedAt
+                        item.title?: "",
+                        item.description?: "",
+                        item.url?: "",
+                        item.urlToImage?: "",
+                        item.publishedAt?: ""
                     )
                 )
             }
